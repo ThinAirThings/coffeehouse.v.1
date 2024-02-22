@@ -45,7 +45,7 @@ export const DataFlowMap: FC<{
                 left: 0,
                 height: '100%',
                 width: '100%',
-                backgroundColor: 'rgba(0, 0, 0, 0.15)', // This is your overlay color, adjust as needed
+                backgroundColor: 'rgba(0, 0, 0, 0.25)', // This is your overlay color, adjust as needed
                 zIndex: 1,
             }}/>
             <HStack zIndex={2} w='full' justify={'space-around'}>
